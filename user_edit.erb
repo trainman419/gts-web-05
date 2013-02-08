@@ -1,0 +1,18 @@
+<% if @user %>
+
+	<h1>Editing <%= @user['name'] %> </h1>
+
+	<form method="post" action="/users/<%= @user['name'] %>/edit">
+
+		<label for="name">Your Name</label>
+		<input type="text" name="name" value="<%= @user['name'] %>" />
+
+		<input type="submit" value="Save Changes" />
+
+	</form>
+
+<% else %>
+
+	Sorry, the user "<%= @name %>" doesn't exist.
+
+<% end %>

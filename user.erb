@@ -1,0 +1,9 @@
+<% if (@messages.length>0) %>
+	<% @messages.each do |m| %>
+		<p><b><%= m['name'] %></b> said: "<%= m['message'] %>"</p>
+	<% end %>
+<% else %>
+
+	Sorry, the user "<%= @name %>" doesn't exist.
+
+<% end %>
