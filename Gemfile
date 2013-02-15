@@ -15,3 +15,6 @@ gem "test-unit"
 # database on the system, SQLite databases are single files. This makes
 # SQLite very popular for local development.
 gem "sqlite3-ruby"
+
+# Bcrypt for hashing user passwords
+gem "bcrypt-ruby"
