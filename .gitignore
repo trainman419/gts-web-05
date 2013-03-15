@@ -10,3 +10,4 @@
 # Your system also has a global .gitignore file which will allow you to ignore
 # files that are created automatically by your operating system or other 
 # applications, for example .DS_Store in OSX.
+Gemfile.lock
